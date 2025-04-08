@@ -116,6 +116,7 @@ header{
 .post .icon:hover{
     opacity: 50%;
     transition: opacity 0.25s;
+    cursor: pointer;
 }
 
 .icon-btn{
