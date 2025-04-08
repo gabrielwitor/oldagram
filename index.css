@@ -1,0 +1,123 @@
+/* Layout */
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    background-color: #ededed;
+}
+
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.container{
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    height: 65px;
+
+    padding: 0 15px;
+    border-bottom: 1px solid #C6C6C6 ;
+}
+.oldagram-logo{
+    width: 128px;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    height: 35px;
+}
+
+.post .user-info{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.post{
+    margin-bottom: 25px;
+}
+
+.post-info{
+    padding-left: 10px;
+    height: 115px;
+}
+
+.post ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.post ul li{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.post .icon{
+    height: 25px;
+    transition: opacity 0.25s;
+}
+
+.post-image{
+    width: 375px;
+}
+
+.post-info h3,
+.post-info p{
+    margin-left: 10px;
+}
+
+.post-info p{
+    margin-top: 10px;
+}
+
+/* Typography */
+
+.small-text, .big-text{
+    margin: 0;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.big-text{
+    font-size: 13px;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+/* Effects */
+
+.post .icon:hover{
+    opacity: 50%;
+    transition: opacity 0.25s;
+}
+
+.icon-btn{
+    all: unset;
+}
